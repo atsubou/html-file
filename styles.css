@@ -1,0 +1,174 @@
+
+* {
+  margin:0;
+  padding:0;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+
+body{
+  background-color:#e9ebee;
+  font-family:inherit;
+  height:602px;
+}
+
+.container{
+  margin:0 223px;
+  position:relative;
+  top:45px;
+}
+
+.title-container p{
+  width:965px;
+  margin-bottom:30px;
+}
+
+.container h2{
+  font-size:25px;
+  display:block;
+  font-weight:bold;
+  padding-top:10px;
+}
+
+.container p{
+  font-size:15px;
+}
+
+.page{
+  width:467px;
+  height:478px;
+  float:left;
+  background-color:white;
+  margin-right:30px;
+  text-align:center;
+}
+
+.page img{
+  margin-top:20px;
+}
+
+.page p{
+  font-weight:bold;
+  margin:0 25px;
+  margin-bottom:90px;
+  opacity:0.4;
+}
+
+
+.start{
+  padding:8px 10px;
+  background-color:#f8f8ff;
+  font-size:13px;
+  font-weight:bold;
+  border:1px solid #dcdcdc;
+  cursor:pointer;
+}
+
+.start:hover{
+  background-color:rgba(220,220,220,0.4);
+}
+
+header{
+  height:43px;
+  width:100%;
+  background-color:#4267b2;
+  border-bottom:1px solid #29487d;
+  color:#fff;
+  line-height:16.08px;
+  font-size:12px;
+  position:fixed;
+  top:0;
+}
+
+.fa-facebook{
+  display:inline-block;
+  font-size:28px;
+  line-height:16px;
+  padding-top:9px;
+  margin-left:200px;
+  float:left;
+}
+
+.content-reseach{
+  float:left;
+  margin-top:10px;
+  margin-left:5px;
+}
+
+input{
+  display:inline-block;
+  height:20px;
+  width:370px;
+  font-size:14px;
+  border:1px solid #1d2129;
+}
+
+button i{
+  width:40px;
+  font-size:15px;
+}
+
+.content-profile{
+  float:left;
+  margin-left:175px;
+  width:200px;
+  height:30px;
+  display:inline-block;
+  margin-top:10px;
+  font-weight:bold;
+}
+
+.btn-name{
+  padding:10px;
+}
+
+.btn-name:hover{
+  background-color:#365899;
+  cursor:pointer;
+}
+
+.fa-smile{
+  margin-right:10px;
+  font-size:20px;
+}
+
+.btn-home{
+  padding:10px 13px;
+}
+
+.btn-home:hover{
+  background-color:#365899;
+  cursor:pointer
+}
+
+.content-item{
+  padding:10px;
+  font-size:22px;
+  float:left;
+  margin-right:20px;
+}
+
+i:hover{
+  cursor:pointer;
+}
+
+.fa-users{
+  margin-right:10px;
+}
+
+.fa-facebook-messenger{
+  margin-right:10px;
+}
+
+.content-question{
+  padding:10px;
+  font-size:22px;
+  float:left;
+}
+
+.fa-question-circle{
+  margin-right:12px;
+}
