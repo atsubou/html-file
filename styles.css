@@ -8,46 +8,56 @@
   box-sizing:border-box;
 }
 
-
 body{
   background-color:#e9ebee;
   font-family:inherit;
-  height:602px;
+  margin:0;
+  padding:0;
 }
 
 .container{
-  margin:0 223px;
-  position:relative;
-  top:45px;
+  max-width:1100px;
+  width:100%;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  max-width:988px;
+  width:100%;
+  margin:0 auto
 }
 
 .title-container p{
-  width:965px;
+  width:975px;
   margin-bottom:30px;
 }
 
 .container h2{
   font-size:25px;
-  display:block;
   font-weight:bold;
-  padding-top:10px;
+  padding-top:50px;
+  margin-bottom:5px;
 }
 
 .container p{
-  font-size:15px;
+  font-size:14px;
 }
 
+
 .page{
-  width:467px;
-  height:478px;
+  width:470px;
+  height:468px;
   float:left;
   background-color:white;
-  margin-right:30px;
+  margin-right:23px;
   text-align:center;
+  border-radius:5px;
+  border:1px solid #dcdcdc;
 }
 
 .page img{
   margin-top:20px;
+  margin-bottom:30px;
 }
 
 .page p{
@@ -77,57 +87,63 @@ header{
   background-color:#4267b2;
   border-bottom:1px solid #29487d;
   color:#fff;
-  line-height:16.08px;
-  font-size:12px;
   position:fixed;
   top:0;
+  z-index:10;
+}
+
+.header-left{
+  float:left;
+  padding-top:8px;
 }
 
 .fa-facebook{
-  display:inline-block;
-  font-size:28px;
-  line-height:16px;
-  padding-top:9px;
-  margin-left:200px;
   float:left;
-}
-
-.content-reseach{
-  float:left;
-  margin-top:10px;
-  margin-left:5px;
+  font-size:30px;
+  margin-right:5px;
 }
 
 input{
-  display:inline-block;
-  height:20px;
-  width:370px;
+  padding:4px 250px 4px 5px;
   font-size:14px;
   border:1px solid #1d2129;
 }
 
-button i{
-  width:40px;
-  font-size:15px;
-}
-
-.content-profile{
+button{
+  padding-right:18px;
+  border-radius:3px;
+  background-color:#e9ebee;
   float:left;
-  margin-left:175px;
-  width:200px;
-  height:30px;
-  display:inline-block;
-  margin-top:10px;
-  font-weight:bold;
 }
 
-.btn-name{
+.fa-search{
+  font-size:18px;
+  padding-left:15px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding-top:10px;
+  opacity:0;
+}
+
+.header-right{
+  float:right;
+  padding-top:7px;
+  font-size:20px;
+}
+
+.hover-name{
   padding:10px;
+  font-size:12px;
 }
 
-.btn-name:hover{
+.hover-name:hover{
   background-color:#365899;
   cursor:pointer;
+  background-size:60px;
 }
 
 .fa-smile{
@@ -135,20 +151,14 @@ button i{
   font-size:20px;
 }
 
-.btn-home{
+.hover-home{
   padding:10px 13px;
+  font-size:12px;
 }
 
-.btn-home:hover{
+.hover-home:hover{
   background-color:#365899;
   cursor:pointer
-}
-
-.content-item{
-  padding:10px;
-  font-size:22px;
-  float:left;
-  margin-right:20px;
 }
 
 i:hover{
@@ -157,18 +167,18 @@ i:hover{
 
 .fa-users{
   margin-right:10px;
+  margin-left:30px;
 }
 
 .fa-facebook-messenger{
   margin-right:10px;
 }
 
-.content-question{
-  padding:10px;
-  font-size:22px;
-  float:left;
+.fa-globe{
+  margin-right:30px;
 }
 
 .fa-question-circle{
   margin-right:12px;
+
 }
