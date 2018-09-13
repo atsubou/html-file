@@ -1,0 +1,55 @@
+
+@media screen and (max-width:479px){
+
+ .container{
+   width:100%;
+ }
+
+ .title-container{
+   width:90%;
+   margin:0 auto;
+   margin-top:40px;
+ }
+
+ .title-container h2{
+   border-bottom:1px solid black;
+   margin-bottom:20px;
+   text-align:center;
+ }
+
+ .title-container p{
+   width:100%;
+ }
+
+ .page{
+  width:100%;
+  float:none;
+  margin:0 auto;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+ header{
+   width:100%;
+ }
+
+ button,input{
+   display:none;
+}
+
+.fa-facebook{
+  padding-left:10px;
+}
+
+ .header-right{
+   display:none;
+}
+
+ .menu-icon{
+   font-size:30px;
+   display:block;
+   opacity:1;
+   position:fixed;
+   top:0;
+   right:9px;
+ }
