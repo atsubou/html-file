@@ -7,6 +7,7 @@
   <title>Facebook-fake</title>
   <link rel="stylesheet" href="/Users/jibudunye/html-file/styles.css">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <link rel="stylesheet" href="/Users/jibudunye/responsive.design/responsive.css">
 </head>
 
@@ -15,7 +16,7 @@
     <div class="container">
       <div class="header-left">
           <i class="fab fa-facebook"></i>
-          <button type="button" name="button"><input type="text" name="" value="" placeholder="検索">
+          <button type="button" name="button"><input class="search-form" type="text" name="" value="" placeholder="検索">
           <i class="fas fa-search"></i></button>
       </div>
       <span class="fa fa-bars menu-icon"></span>
@@ -30,7 +31,21 @@
       </div>
     </div>
   </header>
-
+  <div class="start-modal-wrapper" id="start-modal">
+    <div class="modal">
+      <div class="close-modal">
+         <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div id="start-form">
+        <h2>ページ作成登録</h2>
+        <form action="#">
+          <input class="form-register" type="text" placeholder="メールアドレス">
+          <input class="form-register" type="text" placeholder="パスワード">
+          <div id="submit-btn">ログイン</div>
+        </form>
+      </div>
+    </div>
+  </div>
   <div class="top-wrapper">
     <div class="container">
       <div class="title-container">
@@ -46,7 +61,7 @@
            <p>
            Facebookで製品やサービスを紹介し、ブランドをアピールして、より多くの顧客にリーチできます。
            </p>
-           <span class="btn start">スタート</span>
+           <span class="btn start start-show">スタート</span>
          </div>
          <div class="page">
            <img  src="https://www.facebook.com/images/pages/create/community_illustration.png">
@@ -54,10 +69,11 @@
            <p>
            コミュニティや団体、チーム、グループ、クラブのメンバーとつながり、シェアすることができます。
            </p>
-           <span class="btn start">スタート</span>
+           <span class="btn start start-show">スタート</span>
          </div>
       </div>
     </div>
   </div>
   </div>
+  <script src="script.js"></script>
 </body>
