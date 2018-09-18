@@ -33,7 +33,7 @@
    width:100%;
  }
 
- button,input{
+ .header-left button,input{
    display:none;
 }
 
@@ -54,18 +54,25 @@
    right:9px;
  }
 
-.start-modal-wrapper{
-  background-size:100%;
-}
 
-#start-modal{
-  width:100%;
+
+.modal-wrapper{
+   width:100%;
 }
 
 .modal{
   width:100%;
+  margin-top:150px;
 }
 
+.text{
+  width:80%;
+}
 
+#start-form span{
+  padding:10px 120px;
+}
+
+}
 
 }
