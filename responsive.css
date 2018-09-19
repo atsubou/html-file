@@ -73,6 +73,21 @@
   padding:10px 120px;
 }
 
+.slide-menu-modal{
+  font-weight:bold;
+}
+
+.slide-menu-modal i{
+  margin-right:10px;
+}
+
+.fas{
+  margin:0;
+}
+
+.close-menu-modal{
+  opacity:0.9;
+  font-size:23px;
 }
 
 }
