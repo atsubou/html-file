@@ -9,6 +9,11 @@ $(function(){
      $('#start-modal').fadeOut();
    });
 
+   $('.menu-icon').click(function(){
+     $('#slide-menu').slideDown();
+     });
 
-
+   $('.close-menu-modal').click(function(){
+     $('#slide-menu').slideUp();
+   });
 });
