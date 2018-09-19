@@ -245,7 +245,47 @@ i:hover{
 
 .fa-question-circle{
   margin-right:12px;
+}
 
+.menu-wrapper{
+  max-width:300px;
+  width:100%;
+}
 
+.slide-menu-modal{
+    background-color:white;
+    border:1px solid black;
+    border-radius:4px;
+    display:none;
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:10;
+    text-align:center;
+    height:330px;
+    width:250px;
+}
+
+.slide-menu-modal h2{
+  border-bottom:1px solid black;
+  width:150px;
+  margin:0 auto;
+  padding-top:10px;
+}
+
+.slide-menu-modal span{
+    display:inline-block;
+    margin-bottom:5px;
+    margin-top:15px;
+}
+
+.menu-view{
+    margin:0 30px;
+    float:left;
+}
+
+.close-menu-modal{
+  color:black;
+}
 
 }
